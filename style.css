@@ -589,3 +589,11 @@ body {
     font-family: second;
     font-size: 1.7em;
 }
+
+
+
+@media only screen and (max-width: 360px){
+    body{
+        width: 100vh;
+    }
+}
