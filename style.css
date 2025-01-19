@@ -597,3 +597,55 @@ body {
         width: 100vh;
     }
 }
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    #about-prg{
+        font-size: 0.6em;
+    }
+    #movies-list1 p{
+        font-size: 1em;
+    }
+    #movies-list2 p{
+        font-size: 1em;
+    }
+    #movies-list3 p{
+        font-size: 1em;
+    }
+    #box1-prg {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    #box2-prg {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    #box3-prg {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    #box4-prg {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    #box1-img {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    #box2-img {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    #box3-img {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    #box4-img {
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+}
