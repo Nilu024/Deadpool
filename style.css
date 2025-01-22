@@ -649,3 +649,65 @@ body {
         overflow: hidden;
     }
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    html, body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .nav-links{
+        width: 50%;
+    }
+    .nav-links a{
+        font-size: 1.5em;
+    }
+    #home-img img{
+        height: 50%;
+    }
+    #hole{
+        left: 28%;
+    }
+    #about-prg{
+        font-size: 0.42em;
+    }
+    .blank{
+        height: 50vh;
+    }
+    #weapons h1{
+        font-size: 3.5em;
+    }
+    #weapons .box{
+        margin-top: 5%;
+    }
+    #movies-list1 h1{
+        font-size: 2.5em;
+    }
+    #movies-list1 p{
+        padding: 0px;
+        font-size: 0.9em;
+    }
+    #movies-list2 h1{
+        font-size: 2.5em;
+    }
+    #movies-list2 p{
+        padding: 0px;
+        font-size: 0.91em;
+    }
+    #movies-list3 h1{
+        font-size: 2.5em;
+    }
+    #movies-list3 p{
+        padding: 0px;
+    }
+    #box1-prg {
+        font-size: 1em;
+    }
+    #box3-img {
+        font-size: 1em;
+    }
+}
