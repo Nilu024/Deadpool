@@ -1,11 +1,11 @@
 @font-face {
     font-family: first;
-    src: url(Jersey15-Regular.ttf);
+    src: url(Jersey_15/Jersey15-Regular.ttf);
 }
 
 @font-face {
     font-family: second;
-    src: url(SquadaOne-Regular.ttf);
+    src: url(Squada_One/SquadaOne-Regular.ttf);
 }
 
 html {
@@ -71,9 +71,7 @@ body {
 
 .nav-links a {
     padding: 10px;
-    color: white;
     text-decoration: none;
-    /* padding: 2px 5px; */
     font-family: first;
     color: #8A0808;
     font-size: 2em;
@@ -127,7 +125,8 @@ body {
 
 #home-img img {
     position: fixed;
-    left: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     width: auto;
     height: 60%;
     z-index: -1;
@@ -165,6 +164,9 @@ body {
 /* About decore */
 #about {
     transition: 1s;
+    position: relative;
+    background-color: #E6E6E6;
+    padding-bottom: 5%;
 }
 
 #about-box {
@@ -172,7 +174,7 @@ body {
     padding: 0;
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: auto;
     font-family: first;
     letter-spacing: 5px;
     font-size: 3em;
@@ -180,7 +182,6 @@ body {
     white-space: nowrap;
     overflow: hidden;
     /* border-bottom: 2px red solid; */
-    background-color: #E6E6E6;
     z-index: 9;
 }
 
@@ -208,19 +209,23 @@ body {
 }
 
 #about-prg {
-    /* border: 2px solid red; */
+    margin-bottom: 5%;
     text-align: center;
     font-size: 0.7em;
     color: #B40404;
     width: 100%;
-    height: 60vh;
+    height: auto;
 }
 
+
+
+
 #movies {
-    background-color: #E6E6E6;
     width: 100%;
     height: 100vh;
-    /* border: 2px solid red; */
+    position: relative;
+    background-color: #E6E6E6;
+    padding-bottom: 5%;
 }
 
 #movies h1 {
@@ -416,6 +421,7 @@ body {
 
 
 #weapons{
+    position: relative;
     margin-top: 4%;
     width: 100%;
     height: auto;
@@ -443,7 +449,8 @@ body {
 }
 
 #box1-prg{
-    background-color: #FF0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon1.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -457,7 +464,8 @@ body {
 }
 
 #box1-img{
-    background-color: #FF0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -482,7 +490,8 @@ body {
     border: 5px solid #D88487;
 }
 #box2-prg{
-    background-color: #FF0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon3.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -496,7 +505,8 @@ body {
 }
 
 #box2-img{
-    background-color: #FF0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon4.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -521,7 +531,8 @@ body {
     border: 5px solid #D88487;
 }
 #box3-prg{
-    background-color: #ff0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon5.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -535,7 +546,8 @@ body {
 }
 
 #box3-img{
-    background-color: #ff0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon6.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -563,7 +575,8 @@ body {
 }
 
 #box4-prg{
-    background-color: #ff0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon7.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -577,7 +590,8 @@ body {
 }
 
 #box4-img{
-    background-color: #ff0000;
+    background-color: #000000ef;
+    color: #8A0808;
     background-image: url(weapon8.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -591,12 +605,6 @@ body {
 }
 
 
-
-@media only screen and (max-width: 360px){
-    body{
-        width: 100vh;
-    }
-}
 
 
 
@@ -649,6 +657,7 @@ body {
         overflow: hidden;
     }
 }
+
 
 
 
