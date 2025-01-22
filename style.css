@@ -1,11 +1,11 @@
 @font-face {
     font-family: first;
-    src: url(Jersey_15/Jersey15-Regular.ttf);
+    src: url(Jersey15-Regular.ttf);
 }
 
 @font-face {
     font-family: second;
-    src: url(Squada_One/SquadaOne-Regular.ttf);
+    src: url(SquadaOne-Regular.ttf);
 }
 
 html {
